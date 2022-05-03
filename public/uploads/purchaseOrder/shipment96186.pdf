@@ -1,0 +1,21 @@
+E/FileFragment: MyPath ==>content://com.android.externalstorage.documents/document/primary%3ADownload%2F3357500094210%20(7).pdf
+E/FileFragment: Get Path ==>/storage/emulated/0/Download/3357500094210 (7).pdf
+
+
+content://com.adobe.scan.android.documents/document/root%3A2
+
+
+content://com.dropbox.android.FileCache/filecache/c4083ae5-c1c2-4a19-a449-c5fc7edc4e09
+
+Failure delivering result ResultInfo{who=null, request=131177, result=-1, data=Intent { dat=content://com.adobe.scan.android.documents/document/root:7 flg=0x1 }} to activity {Activity}: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.lastIndexOf(int)' on a null object reference
+
+/data
+/data/user/0/com.adobe.scan.android.documents/document/test.pdf
+
+content://com.adobe.scan.android.documents/document/root:1
+
+photoURI
+
+
+content:/com.adobe.scan.android.documents/document/root%3A7
+java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
